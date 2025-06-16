@@ -26,4 +26,50 @@ console.log(fruit); // This will log "apple" to the console.
 // CONST
 const vegitables = "carrot";
 console.log(vegitables);
-vegitables = 'potato'; // This will throw an error because 'vegitables' is defined with 'const' and cannot be reassigned.
+// vegitables = 'potato'; // This will throw an error because 'vegitables' is defined with 'const' and cannot be reassigned.
+
+// VARIABLES WITH DATATYPES
+
+// Using primitive data types
+
+// String
+let name ="abarna";
+console.log(name); // This will log 'abarna' to the console because 'name' is a string.
+//Number
+let age = 21;
+console.log(age); // This will log '21' to the console because 'age' is a number.
+//Boolean
+let isStudent = false;
+console.log(isStudent); // This will log 'false' to the console because 'isStudent' is set to false.
+//Undefined
+let address;
+console.log(address); // This will log 'undefined' to the console because 'address' is declared but not initialized.
+//Null
+let phoneNumber = null;
+console.log(phoneNumber); // This will log 'null' to the console because 'phoneNumber' is explicitly set to null.
+//Symbol
+let uniqueId = Symbol("id");
+console.log(uniqueId); // This will log a unique symbol to the console because 'uniqueId' is a symbol.
+//Bigint
+let bigNumber = BigInt(1234567890123456789012345678901234567890);
+console.log(bigNumber); // This will log a big integer to the console because 'bigNumber' is a BigInt.
+//-------------------------------------------------------------------------------
+
+// Non-primitive data types
+// Object
+let person = {
+    Name : "abarnavijay",
+    age : 22,
+    isStudent : true,
+    job : "developer",
+    hobbies : ["reading", "writing", "coding","youtube","hearing music"],
+    // Nested object
+    address :{
+        city : "salem",
+        state : "tamilnadu"
+    }
+}
+console.log(person.Name);
+
+
+
