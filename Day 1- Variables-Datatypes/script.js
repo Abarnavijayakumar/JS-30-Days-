@@ -71,5 +71,39 @@ let person = {
 }
 console.log(person.Name);
 
+// 2. Array ([]) -> Technically a type of object, used to store ordered data.
+let colors = ["white","black","green"]
+console.log(typeof colors);
 
+
+// Array
+
+let arr1 = ["apple", "banana", "orange"];
+console.log ( arr1);
+
+// function object -> Functions are special kinds of objects.
+function greet(params) {
+    console.log("Hello World!");
+    
+}
+console.log(typeof greet);
+
+// Date Object -> Used to work with dates and times.
+let currdate = new Date ();
+console.log(currdate);
+
+
+//Write 5 examples using let and const:
+let city = "Coimbatore";
+const state = "Tamil Nadu"
+let age1 = 26;
+const Name1 = "sridhar";
+let job1 = true;
+console.log(city, state, age1, Name1,job1);
+//Declare 2 variables for each data type with sample values:
+let num1 = 21;
+const samplestr = "bee"
+console.log(typeof num1);
+console.log(typeof samplestr);
+console.log(`hello i am ${samplestr} and i am ${num1} years old.`);
 
